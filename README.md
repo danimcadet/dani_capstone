@@ -14,6 +14,7 @@
     
     *This project explores how socioeconomic status interact with the location of an institution and earning potential. The EMI’s across levels will shape our understanding of this issue.*
     
+
 ### Where the Money Resides: Factors Shaping Financial Aid Policies and Decisions
 
 There are a myriad considerations when thinking about financial aid, making it challenging to give general advice. I sought out themes in the data that suggested how families could target schools based on:
@@ -225,4 +226,3 @@ The data used in this project can be found at the following sites:
         | retention | institution’s percentage of students who return after completing their first year |
         | coa | institution’s average cost after aid |
         | endowment | institution’s endowment in millions |
-   
