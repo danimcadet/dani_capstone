@@ -1,3 +1,5 @@
+JUST TESTING THAT I CAN DO THIS WITH RANDOM NOTES.
+
 # Building Base Table
 
 This repository is part of the Capstone project for the DDA9 program. The purpose of this repository is to build a base table that combines various datasets.
