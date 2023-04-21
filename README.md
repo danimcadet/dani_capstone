@@ -20,15 +20,13 @@ Import the following files into a dataframe that are located at `C:\\Users\\dmca
 
 ### Step 2: Create Base Dataframe
 
-Create a new dataframe called `base` that follows the following merge rules:
+Merge rules:
 
 1. Join on `Institution` in `emi_full` and `INSTNM` in `character_full`
 2. Join `character_full` and `finance_full` on `UNITID`
 3. Join on `Institution` in `socmo_full` and `INSTNM` in `character_full`
 
-### Step 3: Select Columns
-
-`base` should only hold the following columns:
+### Step 3: Cleaning and Transformation
 
 1. From `emi_full`:
     1. `Institution` (renamed to `school`)
