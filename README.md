@@ -120,17 +120,13 @@ The data used in this project can be found at the following sites:
         | school | institutions researched in the EMI report |
         | control | public or private designations |
         | emi_pell | From Third Way Out:
-        The degree of economic mobility institutions proivde.
-        
-        economic mobility index score when considering Pell-eligible student experiences |
+        The degree of economic mobility institutions provide; economic mobility index score when considering Pell-eligible student experiences |
         | emi_l1 | economic mobility index score when considering experiences of students from households earning ___ at the time of enrollment |
         | emi_l2 | economic mobility index score when considering experiences of students from households earning ___ at the time of enrollment |
         | emi_l3 | economic mobility index score when considering experiences of students from households earning ___ at the time of enrollment |
         | emi_l4 | economic mobility index score when considering experiences of students from households earning ___ at the time of enrollment |
         | pep_pell | From Third Way Out:
-        
         The Price-to-Earnings Premium (PEP) metric measures the years it takes students to recoup the cost of their education based on the difference between anticipated high school earnings and earnings they experience by attending a particular institution.
-        
         PEP score for students from households earning under $30k at the time of enrollment |
         | pep_l1 | PEP score for students from households earning ___ at the time of enrollment |
         | pep_l2 | PEP score for students from households earning ___ at the time of enrollment |
@@ -142,18 +138,13 @@ The data used in this project can be found at the following sites:
         | long | institution’s longitude |
         | lat | institution’s latitude |
         | calc_url | From IPEDS:
-        
         Net Price Calculator Web Address for institutions that enroll full-time, first-time undergraduate students |
         | hbcu | From IPEDS:
-        
         A code to indicate whether the institution is one of the Historically Black College or University (HBCU) institutions.
-        
         Historically Black Colleges and Universities (HBCU) - The Higher Education Act of 1965, as amended, defines an HBCU as: "...any historically black college or university that was established prior to 1964, whose principal mission was, and is, the education of black Americans, and that is accredited by a nationally recognized accrediting agency or association determined by the Secretary [of Education] to be a reliable authority as to the quality of training offered or is, according to such an agency or association, making reasonable progress toward accreditation." Federal regulations (20 USC 1061 (2)) allow for certain exceptions to the founding date.
-        
         1-Yes
         2-No |
         | setting | From IPEDS:
-        
         Locale codes identify the geographic status of a school on an urban continuum ranging from “large city” to “rural.” They are based on a school’s physical address. The urban-centric locale codes introduced in this file are assigned through a methodology developed by the U.S. Census Bureau’s Population Division in 2005. The urban-centric locale codes apply current geographic concepts to the original NCES locale codes used on IPEDS files through 2004.
         11 = City: Large: Territory inside an urbanized area and inside a principal city with population of 250,000 or more.
         12 = City: Midsize: Territory inside an urbanized area and inside a principal city with population less than 250,000 and greater than or equal to 100,000.
@@ -169,37 +160,34 @@ The data used in this project can be found at the following sites:
         43 = Rural: Remote: Census-defined rural territory that is more than 25 miles from an urbanized area and is also more than 10 miles from an urban cluster.
         American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the Virgin Islands, were not assigned a locale code because the geographic and governmental structures of these entities do not fit the definitional scheme used to derive the code. |
         | c21basic | From IPEDS:
-        
         The Basic Classification is an update of the traditional classification framework developed by the Carnegie Commission on Higher Education in the early 1970s to support its research program. The Basic Classification was originally published for public use in 1973, and subsequently updated in 1976, 1987, 1994, 2000, 2005, 2010, 2015, 2018 and 2021. The 2021 update includes only minor changes. Specifically, the label “Tribal Colleges” has been changed back?to “Tribal Colleges and Universities”. In addition, there is a newly created category “Special Focus Research?Institution”, comprised of the special focus?institutions?that meet the criteria for being considered a “Research University” but confer degrees in a limited range of academic programs. Additionally, the special focus categories of “Engineering Schools” and “Other Technology-Related Schools” have been combined into a single category.
-        
         Classifications are time-specific snapshots of institutional attributes and behavior based on 2019-20 data. For the full definition and methodology go to https://carnegieclassifications.acenet.edu/classification_descriptions/basic.php
-        
+        —
         Doctoral universities - Includes institutions that awarded at least 20 research/scholarship doctoral degrees during the update year and also institutions with below 20 research/scholarship doctoral degrees that awarded at least 30 professional practice doctoral degrees in at least 2 programs. Excludes Special Focus Institutions and Tribal Colleges.
         The first two categories include only institutions that awarded at least 20 research/scholarship doctoral degrees and had at least $5 million in total research expenditures (as reported through the National Science Foundation (NSF) Higher Education Research & Development Survey (HERD)).
-        
+        —
         R1: Doctoral Universities – Very high research activity
         R2: Doctoral Universities – High research activity
         D/PU: Doctoral/Professional Universities
         Master's Colleges and Universities - Generally includes institutions that awarded at least 50 master's degrees and fewer than 20 doctoral degrees during the update year (with occasional exceptions – see Methodology). Excludes Special Focus Institutions and Tribal Colleges.
-        
+        —
         Baccalaureate Colleges - Includes institutions where baccalaureate or higher degrees represent at least 50 percent of all degrees but where fewer than 50 master's degrees or 20 doctoral degrees were awarded during the update year. (Some institutions above the master's degree threshold are also included; see Methodology.) Excludes Special Focus Institutions and Tribal Colleges.
-        
+        —
         Baccalaureate/Associate's Colleges - Includes four-year colleges (by virtue of having at least one baccalaureate degree program) that conferred more than 50 percent of degrees at the associate's level. Excludes Special Focus Institutions and Tribal Colleges.
-        
+        —
         Associate's Colleges - Institutions at which the highest level degree awarded is an associate's degree. The institutions are sorted into nine categories based on the intersection of two factors: disciplinary focus (transfer, career & technical or mixed) and dominant student type (traditional, nontraditional or mixed). Excludes Special Focus Institutions and Tribal Colleges.
-        
+        —
         Special Focus Institutions- Institutions where a high concentration of degrees is in a single field or set of related fields. Excludes Tribal Colleges.
-        
+        —
         Tribal Colleges - Colleges and universities that are members of the American Indian Higher Education Consortium, as identified in IPEDS Institutional Characteristics.
-        
+        —
         Classifications are time-specific snapshots of institutional attributes and behavior based on 2016-17 data.
-        
+        —
         The methodology can be found at http://carnegieclassifications.iu.edu/definitions.php. |
         | c21ipug | From IPEDS:
-        
         The Undergraduate Instructional Program Classification focuses attention on undergraduate education, regardless of the presence or extent of graduate education. Undergraduate education is an essential component of what most colleges and universities do, as the vast majority of U.S. institutions of higher education teach undergraduates. Indeed, even at institutions with strong commitments to graduate education and the production of new knowledge through research and scholarship, the undergraduate program usually accounts for the majority of student enrollment. For the full definition and methodology, go to https://carnegieclassifications.acenet.edu/classification_descriptions/ugrad_program.php
         Classifications are time-specific snapshots of institutional attributes and behavior based on 2019-20 data.
-        
+        —
         Associate's Colleges, High Transfer - Awarded associate's degrees but no bachelor's degrees with fewer than 30% of awards (degrees and certificates) in career & technical programs.
         Associate's Colleges, Mixed Transfer/Career & Technical - Awarded associate's degrees but no bachelor's degrees with 30-49% of awards (degrees and certificates) in career & technical programs.
         Associate's Colleges, High Career & Technical - Awarded associate's degrees but no bachelor's degrees with more than 50% of awards (degrees and certificates) in career & technical programs.
@@ -213,14 +201,14 @@ The data used in this project can be found at the following sites:
         Arts & sciences plus professions, high graduate coexistence - 60–79 % of bachelor's degree majors were in the arts and sciences, and graduate degrees were observed in at least half of the fields corresponding to undergraduate majors.
         Balanced arts & sciences/professions, no graduate coexistence - Bachelor's degrees awarded were relatively balanced between arts and sciences and professional fields (41–59 % in each), and no graduate degrees were awarded in fields corresponding to undergraduate majors.
         Balanced arts & sciences/professions, some graduate coexistence -Bachelor's degree majors were relatively balanced between arts and sciences and professional fields (41–59 % in each), and graduate degrees were observed in up to half of the fields corresponding to undergraduate majors.
-        
+        —
         Balanced arts & sciences/professions, high graduate coexistence - Bachelor's degree majors were relatively balanced between arts and sciences and professional fields (41–59 % in each), and graduate degrees were observed in at least half of the fields corresponding to undergraduate majors.
         Professions plus arts & sciences, no graduate coexistence - 60–79 % of bachelor's degree majors were in professional fields (such as business, education, engineering, health, and social work), and no graduate degrees were awarded in fields corresponding to undergraduate majors.
         Professions plus arts & sciences, some graduate coexistence - 60–79 % of bachelor's degree majors were in professional fields, and graduate degrees were observed in up to half of the fields corresponding to undergraduate majors.
         Professions plus arts & sciences, high graduate coexistence - 60–79 % of bachelor's degree majors were in professional fields, and graduate degrees were observed in at least half of the fields corresponding to undergraduate majors.
         Professions focus, no graduate coexistence - At least 80 % of bachelor's degree majors were in professional fields (such as business, education, engineering, health, and social work), and no graduate degrees were awarded in fields corresponding to undergraduate majors.
         Professions focus, some graduate coexistence - At least 80 % of bachelor's degree majors were in professional fields, and graduate degrees were observed in up to half of the fields corresponding to undergraduate majors.
-        
+        —
         Professions focus, high graduate coexistence - At least 80 % of bachelor's degree majors were in professional fields, and graduate degrees were observed in at least half of the fields corresponding to undergraduate majors. |
         | size | size category based on students enrolled |
         | retention | institution’s percentage of students who return after completing their first year |
