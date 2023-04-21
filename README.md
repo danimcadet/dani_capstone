@@ -1,61 +1,15 @@
-JUST TESTING THAT I CAN DO THIS WITH RANDOM NOTES.
+### Data Questions
 
-# Building Base Table
-
-This repository is part of the Capstone project for the DDA9 program. The purpose of this repository is to build a base table that combines various datasets.
-
-## Description
-
-The following steps outline how to build the base table:
-
-### Step 1: Import Files
-
-Import the following files into a dataframe that are located at `C:\\Users\\dmcad\\Desktop\\DDA9\\Capstone` on the computer:
-
-1. `carnegie_basic.csv` as `carnegie_full`
-2. `ef2021d.csv` as `finance_full`
-3. `emi.xlsx` as `emi_full`
-4. `hd2021.csv` as `character_full`
-5. `smi22.csv` as `socmo_full`
-
-### Step 2: Create Base Dataframe
-
-Merge rules:
-
-1. Join on `Institution` in `emi_full` and `INSTNM` in `character_full`
-2. Join `character_full` and `finance_full` on `UNITID`
-3. Join on `Institution` in `socmo_full` and `INSTNM` in `character_full`
-
-### Step 3: Cleaning and Transformation
-
-1. From `emi_full`:
-    1. `Institution` (renamed to `school`)
-    2. `Control` (renamed to `control`)
-    3. `Economic Mobility Index` (renamed to `emi`)
-    4. `Low-income PEP Percentile Rank` (renamed to `pep_pell`)
-2. From `character_full`:
-    1. `UNITID` (renamed to `unitid`)
-    2. `INSTNM` (match_check)
-    3. `STABBR` (renamed to `state`)
-    4. `ZIP` (renamed to `zip`)
-    5. `LONGITUD` (renamed to `long`)
-    6. `LATTITUDE` (renamed to `lat`)
-    7. `NPRICURL` (renamed to `calc_url`)
-    8. `HBCU` (renamed to `hbcu`)
-    9. `LOCALE` (renamed to `setting`)
-    10. `C21BASIC` (renamed to `c21basic`)
-    11. `C21IPUG` (renamed to `c21ipug`)
-    12. `INSTSIZE` (renamed to `size`)
-3. From `finance_full`:
-    1. `UNITID`
-    2. `RET_PCF` (renamed to `retention`)
-4. From `socmo_full`:
-    1. `Institution`
-    2. `Average Debt` (renamed to `coa`)
-    3. `Endowment (in M)` (renamed to `endowment`)
-
-## Requirements
-
-- Python 3.7 or higher
-- Pandas
-- Numpy
+1. **How will programs with high EMIs fare when additional college choice considerations are included?**
+    
+    The EMI is a useful starting point for understanding how well institutions improve long-term outcomes for Pell-eligible students. However, it does not give insights on any other college characteristic, such as retention and setting. It also does not give enough insight to families who are in the aid dead zone. **In this ADZ, families are ineligible for the Pell grant and any other external aid that uses a similar financial eligibility metric. At the same time, these families’ earnings are not on par with families who can foot the full bill, or at least spend money where it counts for admission.** To name a few: sustaining impressive, but expensive, extracurricular activities over years, attending private schools that are well connected to highly-selective schools, and receiving private college counselling.
+    
+    Overall, the impact of family income on student acceptance odds varies depending on the school and its admission policies. In general, the higher the selectivity of the school, the more likely family income will play a role in acceptance odds. For highly selective schools, which often have limited spots available, admissions committees may consider a student's ability to pay tuition when making acceptance decisions because they rely more on their endowment than government funding. Students in the ADZ are neither able to afford to pay the full tuition nor do they have the potential to receive substantial aid. **Looking at location is key here because a school’s income cutoff for aid is typically influenced by the cost of living where it is located.** By contrast, for less selective schools with larger class sizes and more spots available, family income may not be as much of a factor in acceptance odds because they often have lower tuition rates and rely more on government funding. **Since less selective schools have more flexibility in admitting students regardless of their ability to pay, these programs are also ideal when looking for a reasonable cost-after-aid outlook.**
+    
+    *This project forwards an already student-outcome-centered resource into one that is inclusive of more families who struggle to find a financially-responsible route to college for their children. Will schools that do well by their Pell-recipients also support their mid-income students?*
+    
+2. **Is there a relationship between an institution’s location on EMI?**
+    
+    **Recent studies show that there is a relationship between the location of an institution and the earning potential of its graduates.** This is due to various factors such as the economic conditions and job opportunities available in a particular location. In general, graduates from institutions located in urban areas tend to earn higher salaries compared to those from rural areas. This is because urban areas are usually associated with a higher cost of living and therefore employers in such areas tend to offer higher salaries to their employees. Additionally, urban areas usually have a more diverse range of job opportunities available to graduates, which can also contribute to higher earning potential. However, there are exceptions to this trend. Graduates from institutions located in rural areas may have higher earning potential in certain fields such as agriculture, natural resources, and environmental sciences. This is because these fields are more prevalent in rural areas and require specialized skills that are in high demand.
+    
+    *This project explores how socioeconomic status interact with the location of an institution and earning potential. The EMI’s across levels will shape our understanding of this issue.*
